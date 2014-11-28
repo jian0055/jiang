@@ -16,7 +16,7 @@
 	<body class="home"> 
 		<header>
 			<a href="#nav" class="nav-btn hide-text" data-state="inactive">Navigation</a>
-			<nav class="nav nav-top" data-state="collapsed">
+			<nav id="navigation" role="navigation" class="nav nav-top" data-state="collapsed">
 				
 				<ul>
 					<li><a href="index.html">Home</a></li>
@@ -33,7 +33,7 @@
 		
 		<div class="box">
 
-		<main class="main box">
+		<main class="main box" id="main" role="main">
 			<div class="grid">
 				<div class="unit unit-l-2">
 					<div class="feature">
@@ -164,11 +164,12 @@
 					</div>
 				</div>
 			</div>
-		</div>
 		</main>
+		</div>
+
 	</body>
 	<footer>
-		<nav id="nav" class="nav nav-bottom">
+		<nav id="navigation" role="navigation" class="nav nav-bottom">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="reservation.html">Reservation</a></li>
