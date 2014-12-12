@@ -302,6 +302,14 @@ h1 {
 	float: none;
 	width: 10rem;
 	margin-top: 2.5rem;
+
+	.nav bot{
+		float: left;
+	}
+
+	.copyright {
+		float: left;
+	}
 	
 }
 
